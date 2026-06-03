@@ -25,3 +25,25 @@
   position: relative;
   z-index: 2;
 }
+
+.boton-accion {
+  background-color: #28a745;
+  color: #ffffff;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.25rem;
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(40, 167, 69, 0.15);
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.boton-accion:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 28px rgba(40, 167, 69, 0.25);
+}
+
+.boton-accion:active {
+  transform: scale(0.98);
+}
