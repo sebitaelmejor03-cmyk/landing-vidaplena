@@ -8,11 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- ================= HEADER ================= -->
     <header class="header-principal">
         <div class="logo">
-            <h1>Vida Plena</h1>
+            <img src="logo.png" alt="Logo de Vida Plena" class="logo-imagen">
         </div>
         <nav class="navegacion">
             <ul>
@@ -24,9 +22,7 @@
         </nav>
     </header>
 
-    <!-- ============== SECCIÓN HERO ============== -->
     <section id="hero" class="seccion-hero">
-        <!-- Copilot podrá poner el fondo impactante en esta clase 'seccion-hero' -->
         <div class="contenido-hero">
             <h1>Alcanza el equilibrio y tu Vida Plena</h1>
             <a href="#contacto" class="boton-accion">Comienza Hoy</a>
@@ -40,21 +36,18 @@
         <div class="lista-beneficios">
             <!-- Beneficio 1 -->
             <article class="beneficio-item">
-                <span class="icono">🏋️</span>
                 <h3>Salud Física</h3>
                 <p>Programas de entrenamiento adaptados a tu ritmo y estilo de vida.</p>
             </article>
 
             <!-- Beneficio 2 -->
             <article class="beneficio-item">
-                <span class="icono">🥗</span>
                 <h3>Nutrición Consciente</h3>
                 <p>Planes alimenticios equilibrados para nutrir tu cuerpo y mente.</p>
             </article>
 
             <!-- Beneficio 3 -->
             <article class="beneficio-item">
-                <span class="icono">🧘</span>
                 <h3>Paz Mental</h3>
                 <p>Técnicas de relajación y mindfulness para reducir el estrés diario.</p>
             </article>
@@ -64,14 +57,12 @@
     <!-- =========== SECCIÓN TESTIMONIOS =========== -->
     <section id="testimonios" class="seccion-testimonios">
         <h2>Lo que dicen nuestros clientes</h2>
-        
         <div class="lista-testimonios">
             <!-- Testimonio 1 -->
             <article class="testimonio-item">
                 <p>"Desde que me uní a Vida Plena, mi energía ha cambiado por completo. Los recomiendo a ojos cerrados."</p>
                 <strong>- Camila R.</strong>
             </article>
-
             <!-- Testimonio 2 -->
             <article class="testimonio-item">
                 <p>"Excelente servicio. El acompañamiento es constante y los resultados se notan en semanas."</p>
@@ -83,23 +74,19 @@
     <!-- ============ SECCIÓN CONTACTO ============ -->
     <section id="contacto" class="seccion-contacto">
         <h2>Contáctanos</h2>
-        
         <form class="formulario-contacto" action="#" method="POST">
             <div class="campo">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
             </div>
-            
             <div class="campo">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
             </div>
-            
             <div class="campo">
                 <label for="mensaje">Mensaje:</label>
                 <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
             </div>
-            
             <button type="submit" class="boton-enviar">Enviar Mensaje</button>
         </form>
     </section>
