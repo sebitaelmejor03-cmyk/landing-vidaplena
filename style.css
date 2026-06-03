@@ -47,3 +47,23 @@
 .boton-accion:active {
   transform: scale(0.98);
 }
+
+.lista-beneficios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.beneficio-item {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.beneficio-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.12);
+}
