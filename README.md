@@ -1,9 +1,28 @@
-/* Dale un estilo moderno y atractivo a la clase .boton-accion. Usa un fondo de color verde vibrante, texto blanco en negrita, sin bordes, con esquinas redondeadas (border-radius: 8px) y un poco de padding. Agrega un efecto hover con una transición suave (transition: all 0.3s) para que el botón crezca ligeramente (transform: scale(1.05)) y su sombra se haga más grande al pasar el cursor. */
-/* Estiliza .lista-beneficios usando CSS Grid o Flexbox para que los tres beneficios estén en una fila horizontal con un espacio (gap) entre ellos. Luego, haz que cada .beneficio-item parezca una tarjeta moderna: fondo blanco, padding de 20px, bordes redondeados y una sombra muy suave (box-shadow). Agrega un efecto hover para que al pasar el ratón, la tarjeta se eleve un poco hacia arriba (transform: translateY(-10px)) suavemente. */
-/* Dale a la clase .seccion-testimonios un fondo de color verde o azul pastel muy, muy clarito. Para cada .testimonio-item, ponles un fondo blanco puro, bordes redondeados y una tipografía ligeramente más grande e itálica para el párrafo del texto. Alinea el texto al centro y haz que el nombre del cliente (.testimonio-item strong) tenga un color verde oscuro y se destaque. */
-/* Estiliza la clase .formulario-contacto para que tenga un ancho máximo de 600px y esté centrado en la pantalla (margin: 0 auto). Haz que los campos de texto (input, textarea) tengan un padding cómodo, un borde gris claro y esquinas redondeadas. Lo más importante: agrega un estado :focus para que cuando el usuario haga clic en un campo, el borde cambie a color verde y aparezca un resplandor o sombra verde suave alrededor, indicando que está activo. */
-/* Estiliza la clase .header-principal para crear una barra de navegación moderna. Usa Flexbox (display: flex; justify-content: space-between; align-items: center) para que el .logo quede a la izquierda y la .navegacion a la derecha. Ponle un fondo blanco y una sombra suave debajo (box-shadow). Para la lista dentro de .navegacion, quita los puntos (list-style: none) y pon los elementos en una fila horizontal con un espacio de 2rem entre ellos. A los enlaces (a), quítales el subrayado, usa una fuente moderna en negrita (font-weight: bold), ponlos en color gris oscuro (#333) y agrega un efecto hover para que cambien a color verde (#4CAF50) y tengan una transición suave al pasar el mouse. Haz que el header se quede fijo arriba al hacer scroll (position: sticky; top: 0; z-index: 1000). */
-/* Rediseña la clase .seccion-testimonios para que tenga un fondo verde menta ultra claro (usa background-color: #f4f9f4) y un buen padding. Alinea el título h2 hacia la izquierda. Convierte la .lista-testimonios en un contenedor Flexbox pero en columna (flex-direction: column) con un gap de 1.5rem para que las tarjetas se apilen horizontalmente. A cada .testimonio-item dale un fondo blanco puro (#ffffff), bordes suavemente redondeados (border-radius: 8px), una sombra muy sutil (box-shadow: 0 2px 10px rgba(0,0,0,0.05)) y padding amplio. Centra el texto de las tarjetas (text-align: center). Finalmente, haz que el párrafo (p) sea cursiva (font-style: italic) y que la etiqueta (strong) tenga un color verde oscuro elegante (#004d40) y un pequeño margen superior. */
-/* Estiliza la clase .footer-principal con un fondo oscuro y elegante (background-color: #1e293b) y texto muy claro (#f1f5f9). Usa Flexbox en dirección columna (flex-direction: column) para apilar los elementos, centrando todo (align-items: center; text-align: center) con un espacio entre ellos (gap: 1.5rem) y un padding amplio de 3rem. A los enlaces dentro de .redes-sociales (a), quítales el subrayado, ponlos en color blanco con fuente en negrita, y agrega un efecto hover con transición suave para que cambien al color verde principal (#4CAF50). Haz que la clase .derechos-autor tenga una fuente más pequeña (0.9rem) y un color gris sutil (#94a3b8) para que no compita con el texto principal. */
-/* Estiliza todos los títulos h2 que estén dentro de las etiquetas 'section'. Centra el texto (text-align: center), usa un tamaño de fuente grande (font-size: 2.5rem) y dales el mismo color verde oscuro elegante que usamos en los nombres (#004d40). Agrega un margen inferior amplio (margin-bottom: 3rem) para separarlos del contenido. Para que se vean más bonitos y profesionales, añade una pequeña línea decorativa debajo de cada título usando el pseudo-elemento ::after (content: ''; display: block; width: 60px; height: 4px; background-color: #4CAF50; margin: 15px auto 0; border-radius: 2px;). */
-/* Estiliza el título h1 que está dentro de la clase .contenido-hero. Haz que el texto sea muy grande e impactante (font-size: 3.5rem) y use un grosor de fuente muy marcado (font-weight: 800). Asegúrate de que el color sea blanco puro (#ffffff) para que contraste con la imagen de fondo. Centra el texto (text-align: center) y agrégale una sombra de texto (text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7)) para darle profundidad y que no se pierda con los colores de la foto. Añade un margen inferior (margin-bottom: 1.5rem) para separarlo de la llamada a la acción. */
+# Landing Page - Vida Plena 🌿
+
+Bienvenido al repositorio de la Landing Page de **Vida Plena**. Este proyecto es una página web estática diseñada para presentar los servicios de bienestar físico y mental de la marca.
+
+## 🚀 Sobre el Proyecto
+
+El objetivo de esta página es ofrecer una interfaz moderna, limpia y atractiva para los usuarios que buscan equilibrio en su vida diaria. Cuenta con las siguientes secciones:
+- **Hero Section:** Imagen de impacto con una clara llamada a la acción (Call to Action).
+- **Beneficios:** Tarjetas informativas sobre salud física, nutrición y paz mental.
+- **Testimonios:** Experiencias de clientes para generar confianza.
+- **Contacto:** Formulario para que los usuarios puedan comunicarse.
+
+## 🛠️ Tecnologías Utilizadas
+
+Este proyecto fue desarrollado utilizando tecnologías web estándar y herramientas de inteligencia artificial para agilizar el diseño:
+- **HTML5:** Estructura semántica de la página.
+- **CSS3 (Flexbox):** Diseño moderno, responsivo y estilos personalizados.
+- **GitHub Copilot:** Asistencia en la generación rápida de código y estilos CSS.
+
+## 💻 Cómo ver el proyecto
+
+Para ver la página en tu computadora, solo sigue estos pasos:
+1. Clona este repositorio o descarga los archivos.
+2. Abre el archivo `index.html` en cualquier navegador web (Chrome, Edge, Firefox, etc.).
+3. ¡Listo! No requiere instalación de servidores ni bases de datos.
+
+---
+*Proyecto creado en 2026. Todos los derechos reservados.*
