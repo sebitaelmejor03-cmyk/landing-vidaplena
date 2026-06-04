@@ -95,3 +95,36 @@
   font-weight: 700;
   margin-top: 0.5rem;
 }
+
+/* Formulario de contacto */
+.formulario-contacto {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea,
+.formulario-contacto select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: #ffffff;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.formulario-contacto textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.formulario-contacto input:focus,
+.formulario-contacto textarea:focus,
+.formulario-contacto select:focus {
+  outline: none;
+  border-color: #28a745; /* verde */
+  box-shadow: 0 6px 18px rgba(40, 167, 69, 0.12);
+}
